@@ -9,7 +9,10 @@ php:
 matrix:
   allow_failures:
     - php: hhvm
-
+    
+env:
+  - SYMFONY_VERSION=2.6.*
+  
 before_install:
   - composer self-update
   - composer require symfony/symfony:${SYMFONY_VERSION} --prefer-source
