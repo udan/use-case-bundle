@@ -12,7 +12,7 @@ matrix:
 
 before_install:
   - composer self-update
-  - if [ "$SYMFONY_VERSION" != "" ]; then composer require symfony/symfony:${SYMFONY_VERSION} --prefer-source fi
+  - composer require symfony/symfony:${SYMFONY_VERSION} --prefer-source
 
 before_script:
   - composer install -n
