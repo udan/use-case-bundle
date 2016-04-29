@@ -22,5 +22,6 @@ script:
   - bin/phpunit
 
 env:
-  - COMPOSER_PROCESS_TIMEOUT=1800
-  - SYMFONY_VERSION=2.6.*
+  - SYMFONY_VERSION=2.8.*
+  - SYMFONY_VERSION=3.*
+  - SYMFONY_VERSION=dev-master
