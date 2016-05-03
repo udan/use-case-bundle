@@ -1,5 +1,7 @@
 # Use Case Bundle
 
+[![Build Status](https://travis-ci.org/udan/use-case-bundle.svg?branch=master)](https://travis-ci.org/udan/use-case-bundle)
+
 Use Case Bundle is a Symfony bundle that supports Use Case Driven Development with Symfony framework. It encourages 
 designing your class in a fashion reflects the intention of your application. The tools provided by Use Case Bundle 
 relieve you of the repetitive task of extracting the information required to perform the right behavior from the 
